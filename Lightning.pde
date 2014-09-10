@@ -24,8 +24,11 @@ void draw()
 		startY=endY;
 		stroke(0,startX,startY);
 	}
+	if(startX>300)
+	{
 	fill(0,0,0,7);
 	rect(0,0,600,300);
+	}
 
 }
 
